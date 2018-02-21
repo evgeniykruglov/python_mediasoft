@@ -32,7 +32,6 @@ if lengthOfList != len(defaultList):
         newList.insert (i, defaultList[i])
         i = i + 1
 
-print ('After:',defaultList)
 print ('After:',newList)
 
 
