@@ -4,14 +4,6 @@
 # Установка Requests
 pipenv install requests
 
-# Баг с изменением отправленного сообщения вызывает exception
- Traceback (most recent call last):
-  File "app.py", line 49, in <module>
-    main()
-  File "app.py", line 44, in main
-    send_mess(get_chat_id(last_response), transliterator(get_message(last_response)))
-  File "app.py", line 22, in get_chat_id
-    chat_id = update['message']['chat']['id']
-KeyError: 'message'
+# Как работать с Environment ? Как обрабатывать requirements?
 
 

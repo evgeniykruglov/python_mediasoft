@@ -1,9 +1,8 @@
 import requests
 import datetime
+import sys
 from time import sleep
 from transliterate import translit, get_available_language_codes
-
-url = "https://api.telegram.org/bot520075736:AAHoRHoWW5KDIzTJ4mnMspzWEDCYu5UYN5s/"
 
 def get_updates_json(request):  
     params = {'timeout': 100, 'offset': None}
@@ -58,9 +57,11 @@ def main():
             update_id += 1            
         sleep(10) 
 
-if __name__ == '__main__':  
+if __name__ == '__main__':
+    token = sys.argv[1]
+    print ("Bot has been started \nToken = " + token)
+    url = "https://api.telegram.org/bot" + token + "/"
     main()
-    
 
 
 
