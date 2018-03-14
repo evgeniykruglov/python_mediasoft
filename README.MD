@@ -5,7 +5,7 @@
 	python3 app.py 520015736:AAGeXLM4TYHhQE9ybI-HaZpMSFr0AGl7f_p
 
 2)  Команды для бота
-	/help - вывести информацию о приложении
+	/help /start - вывести информацию о приложении
 	/to-eng - переключить транслитерацию на RUS to ENG
 	/to-rus - переключить транслитерацию на ENG to RUS
 
