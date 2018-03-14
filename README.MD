@@ -1,8 +1,8 @@
-1)  Исполняемый файл app.py
-	Запускается через терминал командой python3 app.py {token}
+1)  Исполняемый файл main.py
+	Запускается через терминал командой python3 main.py {token}
 	где {token} - токен бота
 	Например:
-	python3 app.py 520015736:AAGeXLM4TYHhQE9ybI-HaZpMSFr0AGl7f_p
+	python3 main.py 520015736:AAGeXLM4TYHhQE9ybI-HaZpMSFr0AGl7f_p
 
 2)  Команды для бота
 	/help /start - вывести информацию о приложении
